@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>OUR MENU</title>
+<link rel="stylesheet" href="menu2.css">
+</head>
+
+<body>
+<div id="main">
+<table class="menu">
+	<caption>OUR MENU</caption>
+	<thead>
+		<tr>
+			<th id="thbreakfast">BREAKFAST</th>
+			<th id="thlunch">LUNCH</th>
+			<th id="thevening">EVENING</th>
+			<th id="thsupper">SUPPER</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="odd">BREAKFAST
+			<th>
+                <H1><b>Milk..........7000#</H1></b>
+                   <td> <p class="break"><b>accompained with</b></p><>td
+                   <td> <p class="break">bread mixed witheggs</p><td>
+                    <p class="break">katogo</p>
+                    <p class="break">Rosted sweet potato</p>
+                    <p class="break"> <h1>milk with Bread with .....</h1></p>
+                    <p class="break"> pesto</p> 
+                    <p class="break">tomatoes</p> 
+                    <p class="break">onion</p> 
+                    <p class="break">garlic</p>
+					<h1><b>Chappati..........5000#</b> <span class="Cafe-kitchen"></h1>
+						<p class="Cafe-kitchen">Bread<with class="<p>"></with>pesto, tomatoes, onion, garlic</p>
+						<hr>
+						
+						<h1><b>Garlic bread</b> <span class="Cafe-kitchen">2500k</span></h1>
+						<p class="cafe-kitchen"> garlic butter, onions</p>
+						</div>
+               </th>
+			</tr>
+		
+		<tr class="lunch">LUNCH
+<th>
+			<td>              
+                  <div id="lunch" class="LUNCH">
+
+                <h1><b>Michomo Hot!</b></h1>
+              <b>  <p class="lunch">  Fresh tomatoes   .......3000#</p>
+                <p class="lunch">  unpealed matooke.......4000#</p>
+                <p  class="lunch"> hot sausage     .......3000#</p>
+                <p  class="lunch"> beef           .......20000#</p>
+                <p  class="lunch"> chicken        .......25000#</p></b>
+            
+                    <h1 id="pork" class="lunch">Pork..............30000#</h1>
+                    <span class=><b>ADDS</b></span>
+                    <p class="lunch">fresh tomatoes</p>
+                    <p class="lunch">onions</p>
+                    <p class="lunch">fresh green paper</p>
+                    
+                    <h1>Rice and matooke + gnuts........7000#</h1>
+                    <img class="lunch" src="matooke.jpg" alt="matooke">
+                    <p class="Cafe-kitchen">filled with cheese</p>
+                    
+                    
+                    <h1><b>Spaghetti.....``...15000# </b> <span class="Cafe-kitchen"></span></h1>
+                    <h1>ADDS</h1>
+                    <p class="lunch">Fresh tomatoes</p>
+                    <p  class="lunch"> onions</p> 
+                    <p class="lunch">ground beef</p>
+                </th>
+                    </tr>
+            </div></td>
+            <tr class="lunch">supergatti</tr>
+			<td>
+				<h1><b>Spaghetti........15000# </b> <span class="Cafe-kitchen"></span></h1>
+<h1>ADDS</h1>
+<p class="Cafe-kitchen">Fresh tomatoes</p>
+<p  class="cafe-kitchen"> onions</p> 
+<p class="Cafe-kitchen">ground beef</p>
+</div>
+			</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<th>Wednesday</th>
+			<td>8</td>
+			<td>0</td>
+			<td>8</td>
+		</tr>
+		<tr class="even">
+			<th>Thursday</th>
+			<td>8</td>
+			<td>0</td>
+			<td>8</td>
+		</tr>
+		<tr class="odd">
+			<th>Friday</th>
+			<td>8</td>
+			<td>0</td>
+			<td>8</td>
+		</tr>
+		<tr class="even">
+			<th>Saturday</th>
+			<td>0</td>
+			<td>5</td>
+			<td>5</td>
+		</tr>
+		<tr class="odd">
+			<th>Sunday</th>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<th>Total weekly hours:</th>
+			<td>40</td>
+			<td>8.5</td>
+			<td>48.5</td>
+		</tr>
+	</tfoot>
+</table>
+</div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
